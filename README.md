@@ -1,7 +1,4 @@
-# thuat-ngu-Bitcoin
-
-
-# Bitcoin Terminology (Vietnamese)
+# Thuat ngu Bitcoin
 
 ## Bitcoin
 Một loại tiền kỹ thuật số phi tập trung, không bị kiểm soát bởi bất kỳ tổ chức nào.
