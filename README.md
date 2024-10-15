@@ -1,164 +1,29 @@
-[Back to Home page](https://anh.contact)
+# Key Lessons from *Certified Bitcoin Professional (CBP) Study Guide* by the CryptoCurrency Certification Consortium (C4)
 
-# Thuật ngữ 
----
-## Slideshow
+## 1. History of Money and Ledger-Based Economics
+- **Lesson**: Understanding centralized and distributed ledgers is crucial for differentiating between traditional financial systems and Bitcoin’s blockchain. Centralized ledgers, controlled by a single entity, contrast with Bitcoin's decentralized, distributed consensus mechanism.
+- **Example**: Traditional banks maintain centralized ledgers, where a single institution controls and verifies transactions. Bitcoin uses a public blockchain, allowing any participant to verify transactions through distributed consensus.
 
-<div class="slideshow-container">
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-01.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-02.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-03.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-04.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-05.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-06.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-07.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-08.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-09.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-10.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-11.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-12.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-13.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-14.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-15.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-16.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-17.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-18.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-19.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-20.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-21.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-22.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-23.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-24.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-25.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-26.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-27.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-28.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-29.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-30.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-31.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-32.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-33.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-34.jpg" style="width:100%">
-  </div>
-  <div class="mySlides fade">
-    <img src="Bitcoin Terminology - Vietnamese-35.jpg" style="width:100%">
-  </div>
-</div>
+## 2. Functions of Currency
+- **Lesson**: Bitcoin operates as a unit of account, store of value, and medium of exchange, just like traditional fiat currencies. However, its decentralized nature provides additional benefits like inflation resistance and censorship resistance.
+- **Example**: While the US dollar functions as a medium of exchange, its value fluctuates based on government monetary policy. Bitcoin, with a fixed supply, offers an alternative that resists inflation caused by money printing.
 
-<!-- Navigation buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
+## 3. Basic Cryptography
+- **Lesson**: Bitcoin relies on cryptographic principles to secure transactions, including symmetric and asymmetric encryption. Hash functions are also key components in transaction verification.
+- **Example**: Digital signatures ensure that only the owner of a private key can authorize a transaction, preventing unauthorized spending.
 
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
+## 4. Bitcoin Transactions
+- **Lesson**: A Bitcoin transaction consists of inputs and outputs, with the sender signing the transaction using their private key. Transactions are irreversible, adding a layer of security and finality.
+- **Example**: When Alice sends Bitcoin to Bob, the transaction includes inputs (the source of her Bitcoin) and outputs (Bob’s address). Once the transaction is confirmed, it cannot be reversed.
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+## 5. Mining and Network Security
+- **Lesson**: Bitcoin mining serves the dual purpose of securing the network and minting new coins. Miners solve cryptographic puzzles (proof-of-work) to validate transactions and add new blocks to the blockchain.
+- **Example**: A miner who successfully validates a block is rewarded with newly minted Bitcoin, currently 6.25 BTC, which decreases over time to maintain Bitcoin’s scarcity.
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slides[slideIndex-1].style.display = "block";  
-}
-</script>
+## 6. Wallets and Key Management
+- **Lesson**: Proper wallet management is essential for Bitcoin users. Wallets can be hardware, software, or paper, and each type has different backup methods to ensure that private keys are not lost.
+- **Example**: A hardware wallet, such as a Ledger or Trezor, stores private keys offline, making it less susceptible to hacking. Backups are essential in case the device is lost or damaged.
 
-## Tóm tắt nội dung
-
-## Bitcoin
-Một loại tiền kỹ thuật số phi tập trung, không bị kiểm soát bởi bất kỳ tổ chức nào.
-
-## Satoshi
-Đơn vị nhỏ nhất của Bitcoin, 1 Bitcoin chia thành 100 triệu Satoshis.
-
-## Blockchain (Dữ liệu chuỗi)
-Một chuỗi liên kết của các bản ghi đã được xác minh chứa các giao dịch đã được xác nhận.
-
-## Full Node (Máy chủ)
-Thiết bị hoặc phần mềm chạy phần mềm Bitcoin và duy trì một bản sao hoàn chỉnh của chuỗi dữ liệu (blockchain).
-
-## Lightning Network (Mạng Lightning)
-Giao thức mở rộng của Bitcoin cho phép thanh toán nhanh chóng ngoài chuỗi.
-
-## Transaction (Giao dịch)
-Chuyển quyền sở hữu Bitcoin giữa các thành viên trong mạng lưới, được ký mã hóa bởi người gửi.
-
-## Payment Channel (Kênh thanh toán)
-Mối quan hệ tài chính giữa hai máy chủ trong mạng Lightning.
-
-## Nostr
-Một giao thức mở cho mạng truyền thông tự do không bị kiểm duyệt.
+## 7. Bitcoin Commerce
+- **Lesson**: Merchants can accept Bitcoin for goods and services, either directly or through payment processors that convert Bitcoin into fiat currency. This provides flexibility for businesses wanting to integrate Bitcoin into their operations.
+- **Example**: A merchant can use a payment processor like BitPay to accept Bitcoin payments but receive the funds in US dollars, avoiding price volatility.
